@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: .5em;
+    font-family: helvetica;
+}
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+body {
+    'background-image: url("home.jpg");
+    background-size: 650px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/*01 header*/
+header {
+    background-color: #D9D7D8;
+    height: 20px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 20%;
+}
+
+header img {
+    height: 14px;
+    vertical-align: bottom;
+}
+.btn-email {
+    background-color: gray;
+    color: white;
+    box-shadow: 0px white;
+    border: 0px solid gray;
+    height: 15px;
+    width: 80px;
+    border-radius: 0px;
+    font-size: 8px;
+}
+/*02 nav*/
+nav {
+    background-color: #F6F7F1;
+    height: 45px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+nav img {
+    height: 45px;
+    width: 160px;
+    
+}
+
+/*03 Slider*/
+
+.slider {
+    background-color: ;
+    background-image: url(01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 360px;
+}
+
+.slider-inside {
+    padding-top: 25px;
+    margin-left: 345px;
+    background-color: ;
+    width: 200px;
+}
+
+.btn-join {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #A61E36;
+    border: 0px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#btn-more {
+    margin-left: 10px;
+    color: gray;
+    background-color: white;
+    border: 2px solid #A61E36;
+    opacity: .8;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.tagline-inside {
+    color: gray;
+    margin-top: 250px;
+    height: 50px;
+    background-color: white;
+    opacity: .7;
+    
+}
+
+.tagline-inside p {
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px auto;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+/*04 join options*/
+.joinOptions {
+    background-color: #C8C8C8;
+    height: 120px;
+}
+
+.joinOptions img {
+    height: 90px;
+    width: 130px;
+}
+.joinOptions-inside {
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+.joinNow {
+    margin: 0px 2px;
+    background-color: gray;
+    display: inline-block;
+    height: 90px;
+    width: 130px;
+    vertical-align: text-bottom;
+}
+
+.joinOptions a {
+    margin-top: -20px;
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/*joinSelected*/
+
+.joinSelected {
+    background-color: ;
+    background-image:url(joinnow.jpg);
+    background-size: cover;
+    height: 220px;
+}
+
+.joinSelected-inside {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    width: 180px;
+}
+
+/*contact info*/
+
+.contactInfo {
+    background-color: #D9D7D8;
+    height: 130px;
+}
+.contactInfo-inside {
+    margin: 0px auto;
+    width: 400px;
+
+}
+.about, .contact, .email {
+    width: 120px;
+    display: inline-block;
+    margin: 0px 5px;
+    vertical-align: top;
+}
+
+.about {
+    font-size: 12px;
+}
+
+.contact {
+    font-size: 15px;
+}
+/*footer*/
+
+footer {
+    background-color: #C8C8C8;
+    height: 50px;
+    
+}
+
+.footer-inside {
+    margin: 0px auto;
+    padding-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 6px;
+}
